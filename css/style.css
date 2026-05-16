@@ -1,8 +1,13 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik+Moonrocks&display=swap');
 
-:root{
-    --
+:root {
+    --bg: #FAF3EB;
+    --color-nav: #F9DFDF;
+    --gradiente: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+    --color-secundario: #FDACAC;
+    --color-extra: #C599B6
+
 }
 
 /*Estilos Generales*/
@@ -11,6 +16,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color: var(--bg);
 }
 
 main {
@@ -18,12 +24,21 @@ main {
 }
 
 /*Estilos del NAV*/
+
+.fondo-nav {
+    background-color: var(--color-nav);
+}
+
 .brand-fuente {
     font-family: "Rubik Moonrocks", sans-serif;
-    font-size: 2rem;
-    letter-spacing: 0.7rem;
+    font-size: 1.6rem;
+    background: var(--gradiente);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .icon-custom {
-    color: #FF6B9D; /* Tu color */
+    color: #C599B6;
+    font-size: 2rem;
 }
