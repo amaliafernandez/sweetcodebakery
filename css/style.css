@@ -1,1 +1,29 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik+Moonrocks&display=swap');
+
+:root{
+    --
+}
+
+/*Estilos Generales*/
+body {
+    font-family: 'montserrat', 'sans-serif';
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex-grow: 1;
+}
+
+/*Estilos del NAV*/
+.brand-fuente {
+    font-family: "Rubik Moonrocks", sans-serif;
+    font-size: 2rem;
+    letter-spacing: 0.7rem;
+}
+
+.icon-custom {
+    color: #FF6B9D; /* Tu color */
+}
