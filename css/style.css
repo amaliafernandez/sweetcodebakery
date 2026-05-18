@@ -7,6 +7,7 @@
     --gradiente: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
     --color-secundario: #FDACAC;
     --color-extra: #C599B6;
+    --color-titulos:#ADB2D4;
 
 }
 
@@ -43,6 +44,31 @@ main {
     font-size: 2rem;
 }
 
+/* estilos cartelera productos */
+
+.titulo-cartelera {
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 200;
+    color: #ADB2D4;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    padding: 20px;
+}
+.img-alfajores{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.figcaption-alfajor{
+    color: var(--color-titulos);
+}
+
+.frase-frame{
+    background: #FCE7C8;
+}
+.frase{
+    color: var(--color-titulos);
+}
 /*Estilos del footer*/
 .icon-color {
     color: var(--color-secundario);
