@@ -41,8 +41,30 @@
 </header>
 <main>
     <div class="text-center">
-        <h3 class="titulo-cartelera display-5" >¿Cómo podemos ayudarte?</h3>
-
+        <h3 class="titulo-cartelera display-5 pb-5" >¿Cómo podemos ayudarte?</h3>
+    </div>
+    <div class="container">
+    <form class="row g-3 needs-validation border rounded-3 mx-5 p-3 border-dark" novalidate>
+        <div class="col-12  col-md-6">
+            <label for="validationCustom01" class="form-label ">Nombre</label>
+            <input type="text" class="form-control" id="validationCustom01" value="Ej: Juan" required>
+            <div class="valid-feedback">
+                Looks good!
+            </div>
+        </div>
+        <div class="col-12 col-md-6 mb-3">
+            <label for="formEmail" class="form-label">Email</label>
+            <input type="email" class="form-control" id="formEmail" placeholder="test@ejemplo.com">
+        </div>
+        <div class="mb-3">
+            <label for="form-mensaje" class="form-label">Mensaje</label>
+            <textarea class="form-control" id="form-mensaje" rows="3"
+                      placeholder="agrega aquí tu mensaje"></textarea>
+        </div>
+        <div class="col-12">
+            <button class="btn btn-contactos" type="submit">Enviar</button>
+        </div>
+    </form>
     </div>
 </main>
 
