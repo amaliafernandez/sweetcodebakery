@@ -6,7 +6,7 @@
     --color-nav: #F9DFDF;
     --gradiente: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
     --color-secundario: #FDACAC;
-    --color-extra: #C599B6
+    --color-extra: #C599B6;
 
 }
 
@@ -41,4 +41,14 @@ main {
 .icon-custom {
     color: #C599B6;
     font-size: 2rem;
+}
+
+/*Estilos del footer*/
+.icon-color {
+    color: var(--color-secundario);
+}
+
+.footer {
+    background-color: var(--color-nav);
+    font-size: 1rem;
 }
