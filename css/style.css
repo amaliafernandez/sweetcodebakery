@@ -6,7 +6,8 @@
     --color-nav: #F9DFDF;
     --gradiente: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
     --color-secundario: #FDACAC;
-    --color-extra: #C599B6
+    --color-extra: #C599B6;
+    --color-titulos:#ADB2D4;
 
 }
 
@@ -41,4 +42,49 @@ main {
 .icon-custom {
     color: #C599B6;
     font-size: 2rem;
+}
+
+/* estilos cartelera productos */
+
+.titulo-cartelera {
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 200;
+    color: #ADB2D4;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    padding: 20px;
+}
+.img-alfajores{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+.img-alfajores:hover {
+    transform: translateY(-10px);
+}
+.figcaption-alfajor{
+    color: var(--color-titulos);
+}
+
+.frase-frame{
+    background: #FCE7C8;
+}
+.frase{
+    color: var(--color-titulos);
+}
+
+.btn-contactos{
+    background-color: var(--color-secundario);
+    color: white;
+}
+
+/*Estilos del footer*/
+.icon-color {
+    color: var(--color-secundario);
+}
+
+.footer {
+    background-color: var(--color-nav);
+    font-size: 1rem;
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,23 +11,95 @@
     <title>Error 404</title>
 </head>
 <body>
-<main>
-    <main>
-        <section class="container-fluid d-grid" style="height: 100vh; place-items: center;">
-            <div class="text-center">
-                <h2 class="text-uppercase bg-bold-dark py-3 display-1">Error 404</h2>
+<header class="sticky-top">
+    <nav class="navbar navbar-expand-lg fondo-nav pb-5">
+        <div class="container-fluid">
+            <a class="navbar-brand brand-font brand-fuente" href="../index.html">SWEET CODE BAKERY </a>
+            <div class="me-auto"><i class="bi bi-cake2 icon-custom"></i></div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarmenu"
+                    aria-controls="navbarmenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarmenu">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../pages/home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/recetas.html">Recetas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/error404.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/contactos.html">Contactos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="../index.html">Principal</a></li>
+            <li class="breadcrumb-item"><a href="../pages/home.html">Home</a></li>
+            <li class="breadcrumb-item"><a href="../pages/recetas.html">Recetas</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Productos</li>
+        </ol>
+    </nav>
+</header>
+<main class="d-flex align-items-center justify-content-center" style="min-height: 100vh;">
+    <section class="container">
+        <div class="row">
+            <div class="col-12 text-center mb-4">
+                <h2 class="text-uppercase display-1 fw-bold">Error 404</h2>
             </div>
 
-            <div class="card" style="width: 40rem;">
-                <img src="../img/error404/galletitas.jpg" class="card-img-top"
-                     alt="imagen de galletitas una quemada y la otra no, mostrando error">
-                <div class="card-body">
-                    <p class="card-text display-5 text-warning text-center">UPP!!! Ha ocurrido un error 😱</p>
-                    <a href="../index.html" class="btn btn-warning">Volver al inicio</a>
+            <div class="col-12 col-md-8 col-lg-6 mx-auto">
+                <div class="card rounded-3">
+                    <img src="../img/error404/galletitas.jpg"
+                         class="card-img-top img-fluid rounded-top-3"
+                         alt="imagen de galletitas una quemada y la otra no, mostrando error">
+                    <div class="card-body text-center">
+                        <p class="card-text display-5 text-warning">¡UPS! Ha ocurrido un error 😱</p>
+                        <a href="../index.html" class="btn btn-warning btn-lg mt-3">Volver al inicio</a>
+                    </div>
                 </div>
             </div>
-        </section>
-    </main>
+        </div>
+    </section>
 </main>
+<footer>
+    <div class="container-fluid footer py-4">
+        <!-- Primera fila - Redes sociales -->
+        <div class="row mb-3 pb-3 border-bottom border-light border-5">
+            <div class="col-12 text-center">
+                <h5 class="fw-bold mb-3">Seguinos en:</h5>
+                <div class="fs-4">
+                    <a href="../pages/error404.html" class="icon-color mx-2" style="text-decoration: none;">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                    <a href="../pages/error404.html" class="icon-color mx-2" style="text-decoration: none;">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                    <a href="../pages/error404.html" class="icon-color mx-2" style="text-decoration: none;">
+                        <i class="bi bi-youtube"></i>
+                    </a>
+                    <a href="../pages/error404.html" class="icon-color mx-2" style="text-decoration: none;">
+                        <i class="bi bi-tiktok"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Segunda fila - Copyright -->
+        <div class="row">
+            <div class="col-12 text-center">
+                <p class="mb-0">&copy; Todos los derechos reservados</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 </body>
 </html>

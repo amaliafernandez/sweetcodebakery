@@ -11,11 +11,11 @@
     <title>Sweet Code Bakery</title>
 </head>
 <body>
-<header>
+<header class="sticky-top">
     <nav class="navbar navbar-expand-lg fondo-nav pb-5">
         <div class="container-fluid">
-            <a class="navbar-brand brand-font brand-fuente" href="./index.html">SWEET CODE BAKERY </a> <i
-                class="bi bi-cake2 icon-custom"></i>
+            <a class="navbar-brand brand-font brand-fuente" href="./index.html">SWEET CODE BAKERY </a>
+            <div class="me-auto"><i class="bi bi-cake2 icon-custom"></i></div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarmenu"
                     aria-controls="navbarmenu" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -38,9 +38,191 @@
             </div>
         </div>
     </nav>
+    <nav aria-label="breadcrumb ">
+        <ol class="breadcrumb ">
+            <li class="breadcrumb-item active" aria-current="page">Principal</li>
+        </ol>
+    </nav>
 </header>
-<main></main>
-<footer></footer>
+<main>
+    <!--sección video  pagina principal-->
+    <section>
+        <div class="container">
+            <video src="./img/video-principal/video-principal.mp4" class="object-fit-contain w-100 pt-4" autoplay muted
+                   loop controls></video>
+        </div>
+    </section>
+    <!--seccion nuestros productos -->
+    <section class="py-3">
+        <div class="container">
+            <div class="row">
+                <h1 class="text-uppercase titulo-cartelera display-4 pb-5"> nuestros
+                    <span> Productos </span></h1>
+                <div class="col-12 col-md-4 col-lg-3 d-flex justify-content-center pb-4">
+                    <figure>
+                        <img src="./img/productosPropios/alfajoresdemaicena.jpg"
+                             class="rounded-circle img-alfajores pb-2"
+                             alt="imagen de alfajores de maicena">
+                        <figcaption class="figcaption-alfajor text-center">Alfajores de Maicena</figcaption>
+                    </figure>
+
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 d-flex justify-content-center pb-4">
+                    <figure>
+                        <img src="./img/productosPropios/budines.jpg" class="rounded-circle img-alfajores pb-2"
+                             alt="imagen de Budines">
+                        <figcaption class="figcaption-alfajor text-center">Budines</figcaption>
+                    </figure>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 d-flex justify-content-center pb-4">
+                    <figure>
+                        <img src="./img/productosPropios/carrotcake.jpg" class="rounded-circle img-alfajores pb-2"
+                             alt="imagen de un carrot cake">
+                        <figcaption class="figcaption-alfajor text-center">Carrot Cake</figcaption>
+                    </figure>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 d-flex justify-content-center pb-4">
+                    <figure>
+                        <img src="./img/productosPropios/cookies.jpg" class="rounded-circle img-alfajores pb-2"
+                             alt="imagen de cookies">
+                        <figcaption class="figcaption-alfajor text-center">Cookies</figcaption>
+                    </figure>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 d-flex justify-content-center pb-4">
+                    <figure>
+                        <img src="./img/productosPropios/croissant.jpg" class="rounded-circle img-alfajores pb-2"
+                             alt="imagen de Croissant">
+                        <figcaption class="figcaption-alfajor text-center">Croissant</figcaption>
+                    </figure>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 d-flex justify-content-center pb-4">
+                    <figure>
+                        <img src="./img/productosPropios/hojaldre.jpg" class="rounded-circle img-alfajores pb-2"
+                             alt="imagen de hojaldres">
+                        <figcaption class="figcaption-alfajor text-center">Hojaldres</figcaption>
+                    </figure>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 d-flex justify-content-center pb-4">
+                    <figure>
+                        <img src="./img/productosPropios/muffins.jpg" class="rounded-circle img-alfajores pb-2"
+                             alt="imagen de muffins">
+                        <figcaption class="figcaption-alfajor text-center">Muffins</figcaption>
+                    </figure>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 d-flex justify-content-center pb-4">
+                    <figure>
+                        <img src="./img/productosPropios/redvelvetCake.jpg" class="rounded-circle img-alfajores pb-2"
+                             alt="imagen de una red velvet">
+                        <figcaption class="figcaption-alfajor text-center">Red Velvet</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+        <div class=" container-fluid border border-light frase-frame p-4">
+            <p class="text-center frase display-6">Los momentos más dulces comienzan aquí...</p>
+        </div>
+    </section>
+    <!--seccion productos de la comunidad-->
+    <section class="py-3">
+        <div class="container">
+            <div class="row">
+                <h2 class="text-uppercase titulo-cartelera display-4 pb-5"> En nuestra
+                    <span> comunidad </span></h2>
+                <div class="col-12 col-md-4 col-lg-3 d-flex justify-content-center pb-4">
+                    <figure>
+                        <img src="./img/productosComunidad/alfajores.jpg"
+                             class=" img-alfajores pb-2"
+                             alt="imagen de alfajores Artesanales">
+                    </figure>
+
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 d-flex justify-content-center pb-4">
+                    <figure>
+                        <img src="./img/productosComunidad/cookies.jpg" class="img-alfajores pb-2"
+                             alt="imagen de Galletitas">
+                    </figure>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 d-flex justify-content-center pb-4">
+                    <figure>
+                        <img src="./img/productosComunidad/croissant.jpg" class=" img-alfajores pb-2"
+                             alt="imagen de croissant">
+                    </figure>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 d-flex justify-content-center pb-4">
+                    <figure>
+                        <img src="./img/productosComunidad/lemonpie.jpg" class="img-alfajores pb-2"
+                             alt="imagen de un Lemonpie">
+                    </figure>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 d-flex justify-content-center pb-4">
+                    <figure>
+                        <img src="./img/productosComunidad/macarons.jpg" class=" img-alfajores pb-2"
+                             alt="imagen de macarons">
+                    </figure>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 d-flex justify-content-center pb-4">
+                    <figure>
+                        <img src="./img/productosComunidad/panchocolat.jpg" class=" img-alfajores pb-2"
+                             alt="imagen de pan Chocolat">
+                    </figure>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 d-flex justify-content-center pb-4">
+                    <figure>
+                        <img src="./img/productosComunidad/pastafrola.jpg" class="img-alfajores pb-2"
+                             alt="imagen de pastafrola">
+                    </figure>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 d-flex justify-content-center pb-4">
+                    <figure>
+                        <img src="./img/productosComunidad/tartadulce.jpg" class="img-alfajores pb-2"
+                             alt="imagen de una red velvet">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5">
+        <div class="text-center">
+            <h3 class="display-6 mb-4 frase">ELABORADO PARA VOS.</h3>
+            <button type="button" class="btn btn-contactos btn-lg">¡Escribinos! <i class="bi bi-chat-right-text"></i>
+            </button>
+
+        </div>
+    </section>
+
+</main>
+<!-- seccion footer-->
+<footer>
+    <div class="container-fluid footer py-4">
+        <!-- Primera fila - Redes sociales -->
+        <div class="row mb-3 pb-3 border-bottom border-light border-5">
+            <div class="col-12 text-center">
+                <h5 class="fw-bold mb-3">Seguinos en:</h5>
+                <div class="fs-4">
+                    <a href="./pages/error404.html" class="icon-color mx-2" style="text-decoration: none;">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                    <a href="./pages/error404.html" class="icon-color mx-2" style="text-decoration: none;">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                    <a href="./pages/error404.html" class="icon-color mx-2" style="text-decoration: none;">
+                        <i class="bi bi-youtube"></i>
+                    </a>
+                    <a href="./pages/error404.html" class="icon-color mx-2" style="text-decoration: none;">
+                        <i class="bi bi-tiktok"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Segunda fila - Copyright -->
+        <div class="row">
+            <div class="col-12 text-center">
+                <p class="mb-0">&copy; Todos los derechos reservados</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
