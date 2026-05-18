@@ -62,6 +62,13 @@ main {
 .figcaption-alfajor{
     color: var(--color-titulos);
 }
+
+.frase-frame{
+    background: #FCE7C8;
+}
+.frase{
+    color: var(--color-titulos);
+}
 /*Estilos del footer*/
 .icon-color {
     color: var(--color-secundario);
