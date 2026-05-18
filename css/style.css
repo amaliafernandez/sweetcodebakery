@@ -76,6 +76,7 @@ main {
 
 .btn-contactos{
     background-color: var(--color-secundario);
+    color: white;
 }
 
 /*Estilos del footer*/
