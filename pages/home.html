@@ -1,10 +1,128 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es" data-bs-theme="light">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Desarrollo de sitio web con css y bootstrap">
+    <meta name="Author" content="Fernandez, Amalia">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Home</title>
 </head>
 <body>
+<header>
+    <nav class="navbar navbar-expand-lg fondo-nav pb-5">
+        <div class="container-fluid">
+            <a class="navbar-brand brand-font brand-fuente" href="../index.html">SWEET CODE BAKERY </a>
+            <div class="me-auto"><i class="bi bi-cake2 icon-custom"></i></div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarmenu"
+                    aria-controls="navbarmenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarmenu">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/#/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/recetas.html">Recetas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/error404.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/contactos.html">Contactos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<main>
+    <
+    <section class="container">
+        <article class="row">
+            <h2 class="text-uppercase titulo-cartelera display-4 pb-5">Nuestra historia</h2>
+            <p>
+                En el corazón de una ciudad donde las pantallas nunca descansan y las ideas viajan más rápido que el
+                café, nació Sweet Code Bakery, una panadería artesanal creada por dos amigos: una chef pastelera
+                obsesionada con la precisión del hojaldre y un desarrollador de software convencido de que las mejores
+                ideas aparecen entre aromas a mantequilla y masa recién horneada.
+            </p>
+            <p>
+                La propuesta comenzó en 2021 visitando pequeñas startups tecnológicas con una simple misión: transformar
+                las pausas laborales en experiencias memorables. Muy pronto, sus cajas de sablé de vainilla, mini
+                croissants
+                laminados y delicados hojaldres rellenos de frutas y chocolate empezaron a recorrer oficinas de empresas
+                de software, laboratorios de innovación y estudios de diseño digital.
+            </p>
+            <p>
+                Con el tiempo, Sweet Code Bakery se volvió conocida por sus “degustaciones creativas”: encuentros donde
+                programadores, diseñadores y equipos de tecnología descubrían nuevas combinaciones de sabores mientras
+                compartían ideas y proyectos. Cada receta era elaborada artesanalmente, respetando tiempos lentos de
+                fermentación y técnicas clásicas de pastelería francesa, combinadas con una estética moderna inspirada
+                en el mundo del código y la innovación.
+            </p>
+            <p>
+                Hoy, Sweet Code Bakery no solo vende pastelería fina; crea pequeños momentos de inspiración en medio del
+                ritmo acelerado de la industria tecnológica, demostrando que incluso detrás de las líneas de código más
+                complejas siempre hay espacio para algo dulce y hecho a mano.
+            </p>
+        </article>
+
+        <article>
+            <figure class="pt-4">
+                <img src="../img/fotoHome/fotoInicial.png"
+                     alt="Foto ilustrativa generada por la IA"
+                     class="img-fluid rounded-3">
+                <figcaption class="figcaption-alfajor text-center pt-3">
+                    Presentacion de nuestros productos en Vordering Solutions
+                </figcaption>
+            </figure>
+        </article>
+    </section>
+    <section class="container py-5">
+        <article class="row">
+            <h6>Puedes solicitar tu degustación en nuestro formulario  <a class="frase" href="../pages/contactos.html"> ir a contactos</a></h6>
+
+        </article>
+    </section>
+</main>
+<footer>
+    <div class="container-fluid footer py-4">
+        <!-- Primera fila - Redes sociales -->
+        <div class="row mb-3 pb-3 border-bottom border-light border-5">
+            <div class="col-12 text-center">
+                <h5 class="fw-bold mb-3">Seguinos en:</h5>
+                <div class="fs-4">
+                    <a href="../pages/error404.html" class="icon-color mx-2" style="text-decoration: none;">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                    <a href="../pages/error404.html" class="icon-color mx-2" style="text-decoration: none;">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                    <a href="../pages/error404.html" class="icon-color mx-2" style="text-decoration: none;">
+                        <i class="bi bi-youtube"></i>
+                    </a>
+                    <a href="../pages/error404.html" class="icon-color mx-2" style="text-decoration: none;">
+                        <i class="bi bi-tiktok"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Segunda fila - Copyright -->
+        <div class="row">
+            <div class="col-12 text-center">
+                <p class="mb-0">&copy; Todos los derechos reservados</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 
 </body>
 </html>
