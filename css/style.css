@@ -58,6 +58,10 @@ main {
     width: 200px;
     height: 200px;
     object-fit: cover;
+    transition: transform 0.3s ease;
+}
+.img-alfajores:hover {
+    transform: translateY(-10px);
 }
 .figcaption-alfajor{
     color: var(--color-titulos);
@@ -69,6 +73,11 @@ main {
 .frase{
     color: var(--color-titulos);
 }
+
+.btn-contactos{
+    background-color: var(--color-secundario);
+}
+
 /*Estilos del footer*/
 .icon-color {
     color: var(--color-secundario);
